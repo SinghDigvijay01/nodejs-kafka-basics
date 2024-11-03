@@ -1,0 +1,18 @@
+{
+  "name": "kafka-with-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc -b && node dist/index.js",
+    "producer": "tsc -b && node dist/producer.js",
+    "consumer": "tsc -b && node dist/consumer.js",
+    "topic" : "tsc -b && node dist/createTopic.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "kafkajs": "^2.2.4"
+  }
+}
